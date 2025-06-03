@@ -1,0 +1,2 @@
+python run.py --is_training 1 --root_path ./dataset/water/ --data_path MelbourneWater.csv --model_id traffic_96_96 --model iTransformer --data custom --features M --seq_len 96 --pred_len 96 --e_layers 4 --enc_in 862 --dec_in 862 --c_out 862 --des 'Exp' --d_model 512 --d_ff 512 --batch_size 16 --learning_rate 0.001 --itr 1 --train_epochs 5 --do_predict
+
